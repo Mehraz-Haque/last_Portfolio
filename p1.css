@@ -64,7 +64,7 @@ background: linear-gradient(
 270deg,
 hsl(170, 84%, 53%) 10%,
 
-#0928b3 100%
+#3a5eff 100%
 );
 background-clip: text;
 color: transparent;
@@ -91,8 +91,8 @@ border-bottom: 5px solid var( --main-color);
   border-radius: 60px;
   background: linear-gradient(
 270deg,
-#0ea0a0 10%,
-#0b6b6e 100%
+#1451c44d 10%,
+#4ebbbe 100%
 );
 letter-spacing: 1px;
 cursor: pointer;
