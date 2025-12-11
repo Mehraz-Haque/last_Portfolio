@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family:"Poppins";
+}
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #101010;
+  --text-color: rgb(252, 252, 252);
+  --main-color: #0cecfc;
+    
+}
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+
+}
+
+
+body{
+
+    background: var(--bg-color);
+    color: var(--text-color);
+  
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    pad: 4rem 20%;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:10000;
+}
+#menu_icon{
+
+    font-size: 3.5rem;
+    color: var(--main-color);
+    display: none;
+}
+
+.logo{
+    font-size: 3rem;
+    
+    color:var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.logo:hover{
+    transform:scale(1.1);
+}
+span{ 
+
+background: linear-gradient(
+270deg,
+hsl(170, 84%, 53%) 10%,
+
+#0928b3 100%
+);
+background-clip: text;
+color: transparent;
+}
+.navbar a{
+font-size: 2.2rem;
+color: var( --text-color);
+margin-left:3rem;
+font-weight: 500;
+
+padding-left: 15px;
+transition: 0.3s ease-in-out;
+border-bottom: 5px solid transparent;
+}
+
+.navbar a:hover{
+color: var(--main-color);
+border-bottom: 5px solid var( --main-color);
+}
+
+.gradient_btn{
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  border-radius: 60px;
+  background: linear-gradient(
+270deg,
+#0ea0a0 10%,
+#0b6b6e 100%
+);
+letter-spacing: 1px;
+cursor: pointer;
+transition:0.3s ease-in-out;
+color: rgb(255, 255, 255);
+border: none;
+text-wrap: nowrap;
+}
+.gradient_btn:hover{
+transform: scale(1.5) ;
+}
+
+section{
+min-height: 100vh;
+padding: 10rem 15%;
+}
+.home{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15rem;
+}
+
+.home-content{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ text-align: right;
+}
+.home-content h1{
+font-size: 8rem;
+font-weight: 700;
+margin-top: 1.5rem;
+line-height: 1;
+}
+.home-content h3{
+  margin: 1rem 0;
+  font-size: 4rem;
+}
+.home-content p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.home-image img{
+  width: 32vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px var(--main-color);
+}
+.home-image img:hover
+{
+  box-shadow: 0 0 25px var(--main-color),
+              0 0 50px var(--main-color),
+              0 0 100px var(--main-color)
+}
+.socal-icons a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  gap: 4rem;
+  padding: 1rem;
+  background: transparent;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  color: var(--main-color);
+  margin: 3rem 0.5rem;
+  transition: 0.3s ease-in-out;
+} 
+.socal-icons a:hover{
+  color: var(--text-color);
+  background-color: var(--main-color);
+  transform: scale(1.2) translateY(-5px);
+  box-shadow: 0 0 25px var(--main-color);
+}
+.btn-group{
+  display: flex;
+  gap: 4rem;
+}
+.btn{
+  display: inline-block;
+  padding: 1rem 3rem;
+  background-color: var(--main-color);
+  box-shadow: 0 0 25px var(--main-color);
+  border-radius: 3rem;
+  font-size: 1.8rem;
+  color: black;
+  border: 2px solid transparent;
+  font-weight: 600;
+  transition: .3s ease-in-out;
+}
+.btn:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 25px var(--main-color);
+}
