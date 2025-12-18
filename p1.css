@@ -224,4 +224,6 @@ line-height: 1;
 }
 .webkit-scrollbar-track{
   background: var(--main-color);
+  Height: 5px;
+  border-radius: 10px;
 }
