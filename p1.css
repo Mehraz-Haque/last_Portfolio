@@ -227,3 +227,103 @@ line-height: 1;
   Height: 5px;
   border-radius: 10px;
 }
+.heading{
+  text-align: center;
+  font-size: 7rem;
+  margin-bottom: 5rem 0;
+}
+.Services{
+  background: var(--bg-color);
+  color: black;
+}
+.Services h2{
+  color: var(--text-color);
+}
+.Service-Container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  align-items: center;
+  gap: 2.5rem;
+}
+.Service-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: var(--main-color);
+ height: 600px;
+ border-radius: 3rem;
+ cursor: pointer transparent;
+ transition: 0.3s ease-in-out;
+}
+.Service-box:hover{
+  background-color: var(--second-bg-color);
+  color: var(--main-color);
+  border: 5px solid var(--main-color);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color);
+}
+.Service-info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+.Service-info h4{
+  font-size: 4rem;
+  margin: 2rem 0;
+  font-weight: 800;
+}
+.Service-info p{
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.Service-info i{
+  font-size: 6rem;
+}
+.Projects{
+  background: var(--second-bg-color);
+}
+.project-box{
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  align-items: center;
+  gap: 3rem;
+  row-gap: 5rem;
+}
+.project-card{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ background-color: var(--bg-color);
+ border: 2px solid var(--main-color);
+  border-radius:3rem;
+  gap: 4rem;
+  padding: 5rem 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+.project-card:hover{
+ 
+  box-shadow: 0 0 25px var(--main-color),
+              0 0 50px var(--main-color);
+  transform: scale(1.05);
+} 
+.project-card img{
+  max-width: 300px;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.project-card h3{
+  font-size: 3rem;
+}  
+.project-card{
+  font-size: 1.6rem; 
+
+}
