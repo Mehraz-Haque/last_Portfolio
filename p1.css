@@ -82,7 +82,7 @@ border-bottom: 5px solid transparent;
 
 .navbar a:hover{
 color: var(--main-color);
-border-bottom: 5px solid var( --main-color);
+border-bottom: 4px solid var( --main-color);
 }
 
 .gradient_btn{
@@ -326,4 +326,78 @@ display: grid;
 .project-card{
   font-size: 1.6rem; 
 
+}
+.Contact{
+  background: var(--bg-color);
+}
+.Contact h2{
+  margin-bottom: 3rem;
+  color: var(--text-color);
+}
+.contact form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 3rem;
+  margin: 5rem 0 ;
+  text-align: center;
+ 
+}
+.contact form .input-box input, .contact form textarea{
+  width: 100%;
+  padding: 2.5rem;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  border: 2px solid var(--main-color);
+  background-color: var(--second-bg-color);
+  color: var(--text-color);
+  resize: none;
+  margin: 1.5rem 0;
+}
+.footer{
+  padding: 50px;
+  background: var(--second-bg-color);
+}
+.footer .socal-icons{
+text-align: center;
+}
+.footer ul{
+  text-align: center;
+  font-size: 1.8rem;
+}
+.footer ul li{
+  display: inline-block;
+  margin: 20px;
+}
+.footer ul li a{
+  color: var(--text-color);
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+.footer ul li a:hover{
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+}
+.footer p{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  color: var(--text-color);
+} 
+.gradient_btn{
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  border-radius: 60px;
+  background: linear-gradient(270deg, #770b0b 10%, #8a1000 100%);
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+  border: none;
+  text-wrap: nowrap;
+  display: inline-block;
+}
+.gradient_btn:hover{
+  transform: scale(1.5);
 }
